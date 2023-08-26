@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Estilo para o conteúdo do nosso site
+*/
+
+html,body{
+    height: 100%;
+}
+ 
+/*
+table{
+    width: 900px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table tr td{
+    background-color: antiquewhite;
+    height: 100px;
+    vertical-align: middle;
+    border: 5px solid black;
+}*/
+/*
+.menu-fixed{
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    width: 100%;
+    height: 200px;
+    background: gray;
+}
+
+.box{
+    width: 100%;
+    height: 1400px;
+    background: green;
+}
+
+.box p{
+    width: 400px;
+}
+
+.bg{
+    width: 100%;
+    height: 400px;
+    background-image: url('../Imagens/brawl.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: red;
+}*/
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form fieldset{
+    padding: 0 40px;
+    border: 1px solid #ccc;
+}
+
+form legend{
+    font-size: 17px;
+    color: blue;
+    
+}
+
+form input[type=text]{
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+}
+
+form input[type=text]focus{
+    outline: 0;
+
+}
+
+form select{
+    width:calc(80% + 27px);
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 13px;
+}
+
+form h2{
+    margin-top: 20px;
+    color: aqua;
+}
+
+input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: antiquewhite;
+
+}
